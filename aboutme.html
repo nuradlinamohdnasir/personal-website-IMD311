@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Me</title>
+<style>
+/* CSS for the navigation bar */
+    ul.navbar {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    ul.navbar li {
+      float: left;
+    }
+
+    ul.navbar li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    ul.navbar li a:hover {
+      background-color: #111;
+    }
+
+    /* CSS for the interactive effect */
+    ul.navbar li a::after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 2px;
+      background-color: white;
+      transition: width 0.3s;
+    }
+
+    ul.navbar li a:hover::after {
+      width: 100%;
+    }
+
+    /* CSS for the dropdown menu */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #2e8b57;
+      min-width: 100px;
+      box-shadow: 0px 8px 4px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    
+    .dropdown:hover .dropbtn {
+  background-color: #f9f9f9;
+}
+  </style>
+</head>
+
+<body bgcolor="#617A55">
+
+<ul class="navbar">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="aboutme.html">About Me</a></li>
+    <li><a href="education.html">Education</a>
+  <li><a href="family.html">Family</a>
+  <li><a href="other.html">Other</a>
+    
+    <li class="dropdown" style="float:right">
+    <a href="#products">Contact</a>
+      <div class="dropdown-content">
+        <a href="email.html">E-Mail</a>
+      </div>
+    </li>
+  </ul>
+
+<center><h1><font color="white" size="13" face="ink free">Adlina's Website</h1></font></center>
+
+<center>
+<h2>
+<font face=arial size="3">
+<br>
+<embed src="videos/myself.mp4" autostart="false">
+<br>
+<br>
+<font color="purple">A Short Video of My Ordinary Life</h2>
+</font>
+</center>
+<br>
+<br>
+<pre><font face="times new roman" size="2">Name : Nur Adlina binti Mohd Nasir
+
+Age : 20 years old
+
+Experience : Internship at University Malaya Library
+
+Skills : - Hardworking person
+            - Have a lot of patience
+            - Making videos
+
+Hobby : - Cooking
+              - Playing video games
+              - Watching thriller movies and series</pre>
+<br>
+<br>
+<center><a href="music.html"><img src="images/song.png" style="width:220px;height:200px;"></a></center>
+<center><h2><font face=arial size="3"><font color="purple">This button will navigate you to My Preferences Music.</h2></center>
+</font>
+</body>
+</html>

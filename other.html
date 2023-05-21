@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Other</title>
+<style>
+/* CSS for the navigation bar */
+    ul.navbar {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    ul.navbar li {
+      float: left;
+    }
+
+    ul.navbar li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    ul.navbar li a:hover {
+      background-color: #111;
+    }
+
+    /* CSS for the interactive effect */
+    ul.navbar li a::after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 2px;
+      background-color: white;
+      transition: width 0.3s;
+    }
+
+    ul.navbar li a:hover::after {
+      width: 100%;
+    }
+
+    /* CSS for the dropdown menu */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #2e8b57;
+      min-width: 100px;
+      box-shadow: 0px 8px 4px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    
+    .dropdown:hover .dropbtn {
+  background-color: #f9f9f9;
+}
+  </style>
+
+</head>
+
+<body bgcolor="#617A55">
+
+<ul class="navbar">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="aboutme.html">About Me</a></li>
+    <li><a href="education.html">Education</a>
+  <li><a href="family.html">Family</a>
+  <li><a href="other.html">Other</a>
+    
+    <li class="dropdown" style="float:right">
+    <a href="#products">Contact</a>
+      <div class="dropdown-content">
+        <a href="email.html">E-Mail</a>
+      </div>
+    </li>
+  </ul>
+
+<center><h1><font color="white" size="13" face="ink free">Adlina's Website</h1></font></center>
+
+
+<h2>Challenges Faced
+<br>
+<img src="images/challenges.png" width="50" height="33">
+</h2>
+
+<ul type="circle">
+<li>There are special tools that help you build and fix websites. It can take some time to learn how to use 
+<br>
+these tools.</li>
+<br>
+<li>There are parts of the website that might not look how you want them to. It can be a puzzle to figure out 
+<br>
+what's wrong and how to fix it.</li>
+<br>
+<li>Choosing the colors and pictures that look nice on the website can be challenging. It's like picking 
+<br>
+the perfect paint and decorations for your room.</li>
+<br>
+<li>Websites may look different on different computers because of the way they are built in your computer.
+<br> 
+It can be tricky to make sure that your website looks nice and works well on all computers.</li>
+</ul>
+
+<h2>The Lessons Learned <img src="images/lessons.png" width="35" height="30">
+</h2>
+<ul type="circle">
+<li>Don't be afraid of making mistakes. It is our opportunities to learn and improve. We can embrace and
+<br>
+learned from it.</li>
+<br>
+<li>Developing a website can test our patience. It's important to be patient and keep trying.</li>
+<br>
+<li>Before starting to build a website, it's important to plan and organize ideas. From this, we can be more
+<br>
+organized and responsible in the future.</li>
+<br>
+<li>Staying updated with current web developments is crucial in this era. Many organizations wanted to hire 
+<br>
+someone with variety of knowledge and this could help in finding jobs.</li>
+</ul>
+
+</body>
+</html>
